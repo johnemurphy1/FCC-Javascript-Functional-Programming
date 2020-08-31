@@ -1,0 +1,13 @@
+function sentensify(str) {
+  // Only change code below this line
+var newResult = str.split(/\W/);
+console.log(newResult);
+var finalResult = newResult.join(" ");
+console.log(finalResult);
+return finalResult;
+
+
+
+  // Only change code above this line
+}
+sentensify("May-the-force-be-with-you");
